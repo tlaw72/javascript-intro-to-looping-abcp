@@ -16,12 +16,13 @@ function forLoop (array) {
 forLoop(array);
 
 
-let whileLoop = function(n) {
-  let n = 100;
+function whileLoop (n) {
   while(n>0) {
     console.log(--n);
+    return n;
   }
 }
+
 whileLoop(100);
 
 function maybeTrue() {
@@ -30,6 +31,6 @@ function maybeTrue() {
 
 function doWhileLoop (array) {
   do {
-    array.slice();
+    return array.slice();
   } while (maybeTrue());
-};
+}
