@@ -32,7 +32,7 @@ function maybeTrue() {
 
 function doWhileLoop (array) {
   do {
-    array.slice();
+    array.slice(array[0]);
   } while (maybeTrue());
   return array;
 }
