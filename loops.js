@@ -33,6 +33,6 @@ function maybeTrue() {
 function doWhileLoop (array) {
   do {
     array.slice(array[0]);
-  } while (maybeTrue());
+  } while (array.length > 0 && maybeTrue());
   return array;
 }
