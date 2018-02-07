@@ -1,4 +1,4 @@
-var array = [];
+
 
 function forLoop (array) { 
   for (let i=0; i<25; i++) {
@@ -24,7 +24,7 @@ function whileLoop (n) {
   
 }
 
-whileLoop(100);
+
 
 function maybeTrue() {
   return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
